@@ -1,0 +1,653 @@
+# Grace project file
+#
+@version 50119
+@page size 792, 612
+@page scroll 5%
+@page inout 5%
+@link page off
+@map font 0 to "Times-Roman", "Times-Roman"
+@map font 1 to "Times-Italic", "Times-Italic"
+@map font 2 to "Times-Bold", "Times-Bold"
+@map font 3 to "Times-BoldItalic", "Times-BoldItalic"
+@map font 4 to "Helvetica", "Helvetica"
+@map font 5 to "Helvetica-Oblique", "Helvetica-Oblique"
+@map font 6 to "Helvetica-Bold", "Helvetica-Bold"
+@map font 7 to "Helvetica-BoldOblique", "Helvetica-BoldOblique"
+@map font 8 to "Courier", "Courier"
+@map font 9 to "Courier-Oblique", "Courier-Oblique"
+@map font 10 to "Courier-Bold", "Courier-Bold"
+@map font 11 to "Courier-BoldOblique", "Courier-BoldOblique"
+@map font 12 to "Symbol", "Symbol"
+@map font 13 to "ZapfDingbats", "ZapfDingbats"
+@map color 0 to (255, 255, 255), "white"
+@map color 1 to (0, 0, 0), "black"
+@map color 2 to (255, 0, 0), "red"
+@map color 3 to (0, 255, 0), "green"
+@map color 4 to (0, 0, 255), "blue"
+@map color 5 to (255, 255, 0), "yellow"
+@map color 6 to (188, 143, 143), "brown"
+@map color 7 to (220, 220, 220), "grey"
+@map color 8 to (148, 0, 211), "violet"
+@map color 9 to (0, 255, 255), "cyan"
+@map color 10 to (255, 0, 255), "magenta"
+@map color 11 to (255, 165, 0), "orange"
+@map color 12 to (114, 33, 188), "indigo"
+@map color 13 to (103, 7, 72), "maroon"
+@map color 14 to (64, 224, 208), "turquoise"
+@map color 15 to (0, 139, 0), "green4"
+@reference date 0
+@date wrap off
+@date wrap year 1950
+@default linewidth 1.0
+@default linestyle 1
+@default color 1
+@default pattern 1
+@default font 0
+@default char size 1.000000
+@default symbol size 1.000000
+@default sformat "%.8g"
+@background color 0
+@page background fill on
+@timestamp off
+@timestamp 0.03, 0.03
+@timestamp color 1
+@timestamp rot 0
+@timestamp font 0
+@timestamp char size 1.000000
+@timestamp def "Sat Apr 23 08:44:57 2011"
+@r0 off
+@link r0 to g0
+@r0 type above
+@r0 linestyle 1
+@r0 linewidth 1.0
+@r0 color 1
+@r0 line 0, 0, 0, 0
+@r1 off
+@link r1 to g0
+@r1 type above
+@r1 linestyle 1
+@r1 linewidth 1.0
+@r1 color 1
+@r1 line 0, 0, 0, 0
+@r2 off
+@link r2 to g0
+@r2 type above
+@r2 linestyle 1
+@r2 linewidth 1.0
+@r2 color 1
+@r2 line 0, 0, 0, 0
+@r3 off
+@link r3 to g0
+@r3 type above
+@r3 linestyle 1
+@r3 linewidth 1.0
+@r3 color 1
+@r3 line 0, 0, 0, 0
+@r4 off
+@link r4 to g0
+@r4 type above
+@r4 linestyle 1
+@r4 linewidth 1.0
+@r4 color 1
+@r4 line 0, 0, 0, 0
+@g0 on
+@g0 hidden false
+@g0 type XY
+@g0 stacked false
+@g0 bar hgap 0.000000
+@g0 fixedpoint off
+@g0 fixedpoint type 0
+@g0 fixedpoint xy 0.000000, 0.000000
+@g0 fixedpoint format general general
+@g0 fixedpoint prec 6, 6
+@with g0
+@    world 0, 500, 90, 700
+@    stack world 0, 0, 0, 0
+@    znorm 1
+@    view 0.150000, 0.150000, 1.150000, 0.850000
+@    title ""
+@    title font 0
+@    title size 1.500000
+@    title color 1
+@    subtitle ""
+@    subtitle font 0
+@    subtitle size 1.000000
+@    subtitle color 1
+@    xaxes scale Normal
+@    yaxes scale Normal
+@    xaxes invert off
+@    yaxes invert off
+@    xaxis  on
+@    xaxis  type zero false
+@    xaxis  offset 0.000000 , 0.000000
+@    xaxis  bar on
+@    xaxis  bar color 1
+@    xaxis  bar linestyle 1
+@    xaxis  bar linewidth 1.0
+@    xaxis  label "Rotation Angle (deg)"
+@    xaxis  label layout para
+@    xaxis  label place auto
+@    xaxis  label char size 1.000000
+@    xaxis  label font 0
+@    xaxis  label color 1
+@    xaxis  label place normal
+@    xaxis  tick on
+@    xaxis  tick major 50
+@    xaxis  tick minor ticks 1
+@    xaxis  tick default 6
+@    xaxis  tick place rounded true
+@    xaxis  tick in
+@    xaxis  tick major size 1.000000
+@    xaxis  tick major color 1
+@    xaxis  tick major linewidth 1.0
+@    xaxis  tick major linestyle 1
+@    xaxis  tick major grid off
+@    xaxis  tick minor color 1
+@    xaxis  tick minor linewidth 1.0
+@    xaxis  tick minor linestyle 1
+@    xaxis  tick minor grid off
+@    xaxis  tick minor size 0.500000
+@    xaxis  ticklabel on
+@    xaxis  ticklabel format general
+@    xaxis  ticklabel prec 5
+@    xaxis  ticklabel formula ""
+@    xaxis  ticklabel append ""
+@    xaxis  ticklabel prepend ""
+@    xaxis  ticklabel angle 0
+@    xaxis  ticklabel skip 0
+@    xaxis  ticklabel stagger 0
+@    xaxis  ticklabel place normal
+@    xaxis  ticklabel offset auto
+@    xaxis  ticklabel offset 0.000000 , 0.010000
+@    xaxis  ticklabel start type auto
+@    xaxis  ticklabel start 0.000000
+@    xaxis  ticklabel stop type auto
+@    xaxis  ticklabel stop 0.000000
+@    xaxis  ticklabel char size 1.000000
+@    xaxis  ticklabel font 0
+@    xaxis  ticklabel color 1
+@    xaxis  tick place both
+@    xaxis  tick spec type none
+@    yaxis  on
+@    yaxis  type zero false
+@    yaxis  offset 0.000000 , 0.000000
+@    yaxis  bar on
+@    yaxis  bar color 1
+@    yaxis  bar linestyle 1
+@    yaxis  bar linewidth 1.0
+@    yaxis  label "Coincidences"
+@    yaxis  label layout para
+@    yaxis  label place auto
+@    yaxis  label char size 1.000000
+@    yaxis  label font 0
+@    yaxis  label color 1
+@    yaxis  label place normal
+@    yaxis  tick on
+@    yaxis  tick major 50
+@    yaxis  tick minor ticks 1
+@    yaxis  tick default 6
+@    yaxis  tick place rounded true
+@    yaxis  tick in
+@    yaxis  tick major size 1.000000
+@    yaxis  tick major color 1
+@    yaxis  tick major linewidth 1.0
+@    yaxis  tick major linestyle 1
+@    yaxis  tick major grid off
+@    yaxis  tick minor color 1
+@    yaxis  tick minor linewidth 1.0
+@    yaxis  tick minor linestyle 1
+@    yaxis  tick minor grid off
+@    yaxis  tick minor size 0.500000
+@    yaxis  ticklabel on
+@    yaxis  ticklabel format general
+@    yaxis  ticklabel prec 5
+@    yaxis  ticklabel formula ""
+@    yaxis  ticklabel append ""
+@    yaxis  ticklabel prepend ""
+@    yaxis  ticklabel angle 0
+@    yaxis  ticklabel skip 0
+@    yaxis  ticklabel stagger 0
+@    yaxis  ticklabel place normal
+@    yaxis  ticklabel offset auto
+@    yaxis  ticklabel offset 0.000000 , 0.010000
+@    yaxis  ticklabel start type auto
+@    yaxis  ticklabel start 0.000000
+@    yaxis  ticklabel stop type auto
+@    yaxis  ticklabel stop 0.000000
+@    yaxis  ticklabel char size 1.000000
+@    yaxis  ticklabel font 0
+@    yaxis  ticklabel color 1
+@    yaxis  tick place both
+@    yaxis  tick spec type none
+@    altxaxis  off
+@    altyaxis  off
+@    legend on
+@    legend loctype view
+@    legend 0.85, 0.8
+@    legend box color 1
+@    legend box pattern 1
+@    legend box linewidth 1.0
+@    legend box linestyle 1
+@    legend box fill color 0
+@    legend box fill pattern 1
+@    legend font 0
+@    legend char size 1.000000
+@    legend color 1
+@    legend length 4
+@    legend vgap 1
+@    legend hgap 1
+@    legend invert false
+@    frame type 0
+@    frame linestyle 1
+@    frame linewidth 1.0
+@    frame color 1
+@    frame pattern 1
+@    frame background color 0
+@    frame background pattern 0
+@    s0 hidden true
+@    s0 type xy
+@    s0 symbol 0
+@    s0 symbol size 1.000000
+@    s0 symbol color 2
+@    s0 symbol pattern 1
+@    s0 symbol fill color 2
+@    s0 symbol fill pattern 0
+@    s0 symbol linewidth 1.0
+@    s0 symbol linestyle 1
+@    s0 symbol char 65
+@    s0 symbol char font 0
+@    s0 symbol skip 0
+@    s0 line type 1
+@    s0 line linestyle 1
+@    s0 line linewidth 1.0
+@    s0 line color 2
+@    s0 line pattern 1
+@    s0 baseline type 0
+@    s0 baseline off
+@    s0 dropline off
+@    s0 fill type 0
+@    s0 fill rule 0
+@    s0 fill color 1
+@    s0 fill pattern 1
+@    s0 avalue off
+@    s0 avalue type 2
+@    s0 avalue char size 1.000000
+@    s0 avalue font 0
+@    s0 avalue color 1
+@    s0 avalue rot 0
+@    s0 avalue format general
+@    s0 avalue prec 3
+@    s0 avalue prepend ""
+@    s0 avalue append ""
+@    s0 avalue offset 0.000000 , 0.000000
+@    s0 errorbar on
+@    s0 errorbar place both
+@    s0 errorbar color 2
+@    s0 errorbar pattern 1
+@    s0 errorbar size 1.000000
+@    s0 errorbar linewidth 1.0
+@    s0 errorbar linestyle 1
+@    s0 errorbar riser linewidth 1.0
+@    s0 errorbar riser linestyle 1
+@    s0 errorbar riser clip off
+@    s0 errorbar riser clip length 0.100000
+@    s0 comment "/home/lighthall/recoil_yeild_fit.txt"
+@    s0 legend  ""
+@    s1 hidden false
+@    s1 type xy
+@    s1 symbol 0
+@    s1 symbol size 1.000000
+@    s1 symbol color 2
+@    s1 symbol pattern 1
+@    s1 symbol fill color 2
+@    s1 symbol fill pattern 0
+@    s1 symbol linewidth 1.0
+@    s1 symbol linestyle 1
+@    s1 symbol char 65
+@    s1 symbol char font 0
+@    s1 symbol skip 0
+@    s1 line type 1
+@    s1 line linestyle 1
+@    s1 line linewidth 2.0
+@    s1 line color 2
+@    s1 line pattern 1
+@    s1 baseline type 0
+@    s1 baseline off
+@    s1 dropline off
+@    s1 fill type 0
+@    s1 fill rule 0
+@    s1 fill color 1
+@    s1 fill pattern 1
+@    s1 avalue off
+@    s1 avalue type 2
+@    s1 avalue char size 1.000000
+@    s1 avalue font 0
+@    s1 avalue color 1
+@    s1 avalue rot 0
+@    s1 avalue format general
+@    s1 avalue prec 3
+@    s1 avalue prepend ""
+@    s1 avalue append ""
+@    s1 avalue offset 0.000000 , 0.000000
+@    s1 errorbar on
+@    s1 errorbar place both
+@    s1 errorbar color 2
+@    s1 errorbar pattern 1
+@    s1 errorbar size 1.000000
+@    s1 errorbar linewidth 1.0
+@    s1 errorbar linestyle 1
+@    s1 errorbar riser linewidth 1.0
+@    s1 errorbar riser linestyle 1
+@    s1 errorbar riser clip off
+@    s1 errorbar riser clip length 0.100000
+@    s1 comment "Interpolated from G0.S1 using cubic spline"
+@    s1 legend  "Sine Fit"
+@    s2 hidden false
+@    s2 type xy
+@    s2 symbol 1
+@    s2 symbol size 1.000000
+@    s2 symbol color 1
+@    s2 symbol pattern 1
+@    s2 symbol fill color 1
+@    s2 symbol fill pattern 1
+@    s2 symbol linewidth 1.0
+@    s2 symbol linestyle 1
+@    s2 symbol char 65
+@    s2 symbol char font 0
+@    s2 symbol skip 0
+@    s2 line type 0
+@    s2 line linestyle 1
+@    s2 line linewidth 1.0
+@    s2 line color 1
+@    s2 line pattern 1
+@    s2 baseline type 0
+@    s2 baseline off
+@    s2 dropline off
+@    s2 fill type 0
+@    s2 fill rule 0
+@    s2 fill color 1
+@    s2 fill pattern 1
+@    s2 avalue off
+@    s2 avalue type 2
+@    s2 avalue char size 1.000000
+@    s2 avalue font 0
+@    s2 avalue color 1
+@    s2 avalue rot 0
+@    s2 avalue format general
+@    s2 avalue prec 3
+@    s2 avalue prepend ""
+@    s2 avalue append ""
+@    s2 avalue offset 0.000000 , 0.000000
+@    s2 errorbar on
+@    s2 errorbar place both
+@    s2 errorbar color 1
+@    s2 errorbar pattern 1
+@    s2 errorbar size 1.000000
+@    s2 errorbar linewidth 1.0
+@    s2 errorbar linestyle 1
+@    s2 errorbar riser linewidth 1.0
+@    s2 errorbar riser linestyle 1
+@    s2 errorbar riser clip off
+@    s2 errorbar riser clip length 0.100000
+@    s2 comment "/home/lighthall/recoil_yeild.txt"
+@    s2 legend  "Coicidence Yeild"
+@target G0.S0
+@type xy
+-30 647.3219
+-25 618.31392
+-16.5 569.25173
+-15 561.80175
+-12 548.81078
+-6.5 533.27714
+-5 531.17999
+0 531.31407
+5 542.19843
+10 562.38537
+15 589.18992
+16.5 598.00396
+20 619.04691
+25 647.98517
+29 667.8703
+30 672.15576
+33 682.99219
+35 688.34382
+40 694.39627
+45 689.50808
+50 674.32941
+53 661.07258
+55 650.87911
+60 622.27623
+65 592.3251
+70 565.00942
+74 547.52045
+75 543.96232
+80 531.9832
+85 530.66536
+90 540.18408
+95 559.2733
+100 585.39405
+105 615.07211
+&
+@target G0.S1
+@type xy
+0 531.31407
+0.45226131 531.86825
+0.90452261 532.51135
+1.3567839 533.24228
+1.8090452 534.05993
+2.2613065 534.96319
+2.7135678 535.95096
+3.1658291 537.02213
+3.6180905 538.17559
+4.0703518 539.41025
+4.5226131 540.72499
+4.9748744 542.11871
+5.4271357 543.59017
+5.879397 545.13753
+6.3316583 546.75875
+6.7839196 548.45181
+7.2361809 550.21468
+7.6884422 552.04533
+8.1407035 553.94172
+8.5929648 555.90184
+9.0452261 557.92365
+9.4974874 560.00512
+9.9497487 562.14423
+10.40201 564.33886
+10.854271 566.58646
+11.306533 568.88435
+11.758794 571.22982
+12.211055 573.62016
+12.663317 576.05268
+13.115578 578.52469
+13.567839 581.03347
+14.020101 583.57633
+14.472362 586.15058
+14.924623 588.7535
+15.376884 591.38238
+15.829146 594.03428
+16.281407 596.70623
+16.733668 599.39521
+17.18593 602.09822
+17.638191 604.81226
+18.090452 607.53431
+18.542714 610.26137
+18.994975 612.99041
+19.447236 615.71843
+19.899497 618.44243
+20.351759 621.15938
+20.80402 623.86637
+21.256281 626.56049
+21.708543 629.23882
+22.160804 631.89847
+22.613065 634.53653
+23.065327 637.15009
+23.517588 639.73625
+23.969849 642.2921
+24.422111 644.81474
+24.874372 647.30127
+25.326633 649.7488
+25.778894 652.15473
+26.231156 654.51659
+26.683417 656.83192
+27.135678 659.09826
+27.58794 661.31313
+28.040201 663.4741
+28.492462 665.57868
+28.944724 667.62442
+29.396985 669.60889
+29.849246 671.52989
+30.301508 673.38532
+30.753769 675.17326
+31.20603 676.89194
+31.658291 678.53957
+32.110553 680.11438
+32.562814 681.61458
+33.015075 683.0384
+33.467337 684.38411
+33.919598 685.65021
+34.371859 686.83523
+34.824121 687.93769
+35.276382 688.95618
+35.728643 689.88971
+36.180905 690.73763
+36.633166 691.49932
+37.085427 692.17413
+37.537688 692.76144
+37.98995 693.26061
+38.442211 693.671
+38.894472 693.99199
+39.346734 694.22293
+39.798995 694.3632
+40.251256 694.41219
+40.703518 694.36987
+41.155779 694.23674
+41.60804 694.01328
+42.060302 693.69998
+42.512563 693.29735
+42.964824 692.80587
+43.417085 692.22605
+43.869347 691.55837
+44.321608 690.80334
+44.773869 689.96144
+45.226131 689.0332
+45.678392 688.01963
+46.130653 686.92225
+46.582915 685.7426
+47.035176 684.48223
+47.487437 683.14267
+47.939698 681.72547
+48.39196 680.23217
+48.844221 678.6643
+49.296482 677.02341
+49.748744 675.31104
+50.201005 673.52874
+50.653266 671.67841
+51.105528 669.7623
+51.557789 667.78271
+52.01005 665.74195
+52.462312 663.64229
+52.914573 661.48604
+53.366834 659.27551
+53.819095 657.01311
+54.271357 654.70131
+54.723618 652.34259
+55.175879 649.93943
+55.628141 647.49444
+56.080402 645.01048
+56.532663 642.49041
+56.984925 639.93709
+57.437186 637.35337
+57.889447 634.74212
+58.341709 632.10619
+58.79397 629.44845
+59.246231 626.77175
+59.698492 624.07895
+60.150754 621.37292
+60.603015 618.65658
+61.055276 615.93293
+61.507538 613.20501
+61.959799 610.47583
+62.41206 607.74841
+62.864322 605.02578
+63.316583 602.31096
+63.768844 599.60698
+64.221106 596.91684
+64.673367 594.24359
+65.125628 591.59023
+65.577889 588.95969
+66.030151 586.35474
+66.482412 583.77811
+66.934673 581.23254
+67.386935 578.72078
+67.839196 576.24556
+68.291457 573.80963
+68.743719 571.41573
+69.19598 569.0666
+69.648241 566.76497
+70.100503 564.51359
+70.552764 562.31502
+71.005025 560.17146
+71.457286 558.08506
+71.909548 556.05796
+72.361809 554.09231
+72.81407 552.19027
+73.266332 550.35397
+73.718593 548.58557
+74.170854 546.88722
+74.623116 545.26099
+75.075377 543.70886
+75.527638 542.2326
+75.979899 540.8335
+76.432161 539.51279
+76.884422 538.27168
+77.336683 537.1114
+77.788945 536.03316
+78.241206 535.0382
+78.693467 534.12772
+79.145729 533.30294
+79.59799 532.5651
+80.050251 531.91541
+80.502513 531.35484
+80.954774 530.88364
+81.407035 530.50196
+81.859296 530.20992
+82.311558 530.00766
+82.763819 529.89529
+83.21608 529.87296
+83.668342 529.94079
+84.120603 530.09892
+84.572864 530.34747
+85.025126 530.68658
+85.477387 531.11616
+85.929648 531.6354
+86.38191 532.24334
+86.834171 532.93901
+87.286432 533.72144
+87.738693 534.58968
+88.190955 535.54274
+88.643216 536.57968
+89.095477 537.69953
+89.547739 538.90131
+90 540.18408
+&
+@target G0.S2
+@type xy
+-30 520
+-16.5 510
+-12 500
+-6.5 528
+0 500
+5 549
+15 599
+20 653
+29 674
+33 676
+35 676
+45 676
+53 672
+60 619
+74 565
+90 547
+105 619
+&
